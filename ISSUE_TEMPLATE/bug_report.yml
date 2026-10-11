@@ -1,0 +1,66 @@
+name: Bug report
+description: Something in Flunora does not work as it should.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Never paste customer data, tokens, passwords or full email addresses here; use record ids instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected to see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The smallest sequence of steps that shows the problem.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Leads and pipeline
+        - Companies and opportunities
+        - Conversations and WhatsApp
+        - Email and calendar
+        - Meetings and recording
+        - Automations and agents
+        - AI assistant and research
+        - Reports and dashboards
+        - Integrations
+        - Settings, team and permissions
+        - Administration
+        - Public API and webhooks
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Page
+      description: The URL where it happened.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Error messages, request ids, screenshots with personal data removed, relevant log lines.
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Impact
+      options:
+        - Blocks work for one or more customers
+        - Degrades a feature, with a workaround
+        - Cosmetic or minor
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/Flunora/.github/blob/main/SECURITY.md
+    about: Never open a public issue for a vulnerability. Follow the security policy instead.
+  - name: Public API and integration guides
+    url: https://docs.flunora.com
+    about: Documentation for the public API, webhooks and integrations.

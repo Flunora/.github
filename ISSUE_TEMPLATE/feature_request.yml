@@ -1,0 +1,34 @@
+name: Feature request
+description: Propose a new capability or an improvement.
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who has this problem, and what does it cost them today? Describe the situation, not the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What you would like Flunora to do. Mention the screen, the flow or the API it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Customer requests, usage data or examples that show the need.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Considerations
+      options:
+        - label: Touches personal data (privacy by design applies)
+        - label: Depends on a paid provider (AI, research, recording)
