@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://www.flunora.com">
-    <img src="assets/cover.png" alt="Flunora. Seu cliente fala uma vez. Sua empresa nunca esquece." width="100%">
-  </a>
-</p>
-
 <h3 align="center">Revenue Intelligence for evidence-based commercial decisions</h3>
 
 <p align="center">
